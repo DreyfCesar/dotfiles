@@ -34,3 +34,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-h> <C-w>h
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Moverse entre los archivos del buffer
+" con la tecla Shift + <- y Shift + ->
+nnoremap <Esc>[1;2D :bprevious<CR>
+nnoremap <Esc>[1;2C :bnext<CR>
