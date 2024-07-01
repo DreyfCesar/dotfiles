@@ -25,17 +25,23 @@ set noswapfile
 set nobackup
 set viminfofile=~/.vim/info
 
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-
-nnoremap <C-n> :NERDTreeToggle<CR>
-
 nnoremap <C-j> <C-w>j
 nnoremap <C-h> <C-w>h
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+" NERDTree
+nnoremap <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeQuitOnOpen = 1
+
 " Moverse entre los archivos del buffer
 " con la tecla Shift + <- y Shift + ->
 nnoremap <Esc>[1;2D :bprevious<CR>
 nnoremap <Esc>[1;2C :bnext<CR>
+
+" jlanzarotta/bufexplorer
+nnoremap <C-S-b> :BufExplorer<CR>
