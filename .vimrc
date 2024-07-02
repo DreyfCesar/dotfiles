@@ -37,6 +37,7 @@ let g:airline#extensions#tabline#enabled = 1
 " NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeQuitOnOpen = 1
+let NERDTreeShowLineNumbers = 1
 
 " Moverse entre los archivos del buffer
 " con la tecla Shift + <- y Shift + ->
