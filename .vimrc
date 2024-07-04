@@ -33,6 +33,8 @@ nnoremap <C-l> <C-w>l
 " Airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#branch#format = 1
 
 " NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
