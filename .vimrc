@@ -15,6 +15,9 @@ set smartcase
 set smartindent
 set smarttab
 
+set incsearch
+set hlsearch
+
 set expandtab
 set tabstop=4
 set shiftwidth=4
