@@ -5,3 +5,5 @@
 	defaultBranch = master
 [alias]
 	lg = log --graph --pretty=format:'%C(bold red)%h%Creset >%C(bold)%C(yellow)%d%Creset %C(bold)%s %Cgreen(%cr) %Creset%C(bold)%C(dim)<%an>' --abbrev-commit
+
+	lx = log --graph --pretty=format:'< %C(bold white)%s%n%<(2)%n- %C(bold red)[%h] %C(reset)%C(red)(%H)%C(bold yellow)%d%<(2)%n* %C(bold yellow)%cr %C(reset)%C(yellow)(%ci)%<(2)%n@ %C(bold green)%an %C(reset)%C(green)(%ae)%n%+b%n'
