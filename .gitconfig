@@ -3,3 +3,5 @@
 	email = cesardreyf@gmail.com
 [init]
 	defaultBranch = master
+[alias]
+	lg = log --graph --pretty=format:'%C(bold red)%h%Creset >%C(bold)%C(yellow)%d%Creset %C(bold)%s %Cgreen(%cr) %Creset%C(bold)%C(dim)<%an>' --abbrev-commit
