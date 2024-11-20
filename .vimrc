@@ -51,3 +51,10 @@ nnoremap <Esc>[1;2C :bnext<CR>
 
 " jlanzarotta/bufexplorer
 nnoremap <C-S-b> :BufExplorer<CR>
+
+" CtrlP
+" Ignora las carpetas vendor y .git
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/](vendor|\.git)$',
+    \ 'file': '\v\.(exe|so|dll)$',
+    \ }
