@@ -55,6 +55,6 @@ nnoremap <C-S-b> :BufExplorer<CR>
 " CtrlP
 " Ignora las carpetas vendor y .git
 let g:ctrlp_custom_ignore = {
-    \ 'dir':  '\v[\/](vendor|\.git)$',
+    \ 'dir':  '\v[\/](vendor|\.git|node_modules)$',
     \ 'file': '\v\.(exe|so|dll)$',
     \ }
